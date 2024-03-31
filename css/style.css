@@ -1,39 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: 'poppins';
-    overflow-x: hidden;
+    line-height: 1,65;
+    padding-bottom: 1000px;
 }
-header{
-    background-color: rgb(11, 11, 65);
-    color: white;
-    width: 100%;
-    height: 300px;
+nav{
+  background-color:rgb(11, 11, 65) ;
 }
 
-.kontainer-foto{
+
+  .hider-member{
+    margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .container-satu{
+    max-width: 80rem;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    align-items: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
-header p {
-    padding-top:15px ;
-    max-width: 600px; /* Misalnya, batasi lebar maksimum teks */
-    margin: 0 auto; /* Ini akan membuat teks berada di tengah secara vertical di dalam parent element */
+  .member4{
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px; 
+    margin: 20px;
+  }
+  .member4 img  {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; /* Membuat gambar berada di tengah */
 }
+.member4 p {
+    text-align: justify; /* Rata kanan kiri */
+    margin: 0; /* Menghapus margin default */
+  }
 
-/* Responsive header */
-@media only screen and (max-width: 600px) {
-    header {
-        height: auto; /* Menjadikan tinggi header fleksibel */
-    }
-
-    header p {
-        padding: 15px;
-        font-size: 13px; /* Menyesuaikan ukuran teks untuk perangkat seluler */
-    }
-
-    .kontainer-foto img {
-        width: 100px;
-        height: 100px;
-    }
-} 
+.custom-hr {
+    width: 65%; 
+    height: 1px; 
+    background-color: black; 
+    margin: 20px auto; 
+    border: none; 
+  }
+  
